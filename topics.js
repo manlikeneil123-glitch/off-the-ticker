@@ -1260,4 +1260,319 @@ Should we put a price on nature?
 Can economics value a human life?
 Is it ethical to discount the future?
 What is the best economic policy no one talks about?
+Why did the Industrial Revolution begin in Britain?
+Did colonialism make Britain rich?
+What role did slavery play in the rise of the Atlantic economy?
+Why did the Ottoman Empire fall behind Europe economically?
+What explains the Great Divergence between Europe and China?
+Did the printing press cause an economic revolution?
+Why did the Black Death raise wages in medieval Europe?
+What can the Roman Empire's currency debasement teach us about inflation?
+Why did Spain's New World silver not make it rich?
+Was mercantilism ever good economics?
+What did the Corn Laws debate reveal about free trade?
+Why did the 1929 crash turn into a decade-long depression?
+Did the New Deal end the Great Depression?
+What did the Second World War do to the US economy?
+Why did post-war Britain grow more slowly than West Germany?
+Was the 1967 devaluation of sterling a mistake?
+What caused Britain's 1976 IMF crisis?
+Was Black Wednesday good for Britain in the long run?
+What were the economic effects of the miners' strike?
+Did privatisation in the 1980s improve British industry?
+Why did the Soviet Union's growth slow after the 1960s?
+How did shock therapy shape post-communist Russia?
+Why did Poland's transition succeed where Russia's struggled?
+Why did East Germany's economy struggle after reunification?
+What explains the Irish economy's boom, bust and recovery?
+Why has Italy's economy barely grown since 2000?
+Why is Switzerland so rich?
+How did Israel become a start-up nation?
+How did Taiwan build a world-leading chip industry?
+Why did South Korea grow while North Korea stagnated?
+Why has Nigeria struggled to turn oil into prosperity?
+Why did Botswana avoid the resource curse?
+Why has Bangladesh outgrown Pakistan?
+Why did Sri Lanka default in 2022?
+What explains Turkey's high inflation?
+Why does Lebanon's banking crisis matter?
+Can Saudi Arabia diversify away from oil?
+Why did Venezuela's oil wealth end in collapse?
+What can Chile's pension system teach Britain?
+Is Estonia a model for digital government?
+What explains Poland's thirty years of growth?
+Why is productivity so different across regions of the UK?
+Why is London so much richer than the rest of Britain?
+Did the Northern Powerhouse achieve anything?
+Should Britain have more powerful regional governments?
+Does building transport links help poor regions grow?
+What explains the decline of British manufacturing?
+Should Britain try to bring back manufacturing jobs?
+Is the UK too dependent on financial services?
+Should the UK adopt a German-style apprenticeship system?
+Why do British firms invest less than their rivals?
+Why is business investment so low in the UK?
+Does the UK planning system hold back growth?
+What would happen if Britain abolished stamp duty?
+Should council tax be replaced by a land value tax?
+Is a land value tax the perfect tax?
+Should Britain tax wealth instead of income?
+Should capital gains be taxed at the same rate as income?
+Is the UK tax system too complicated?
+Do tax cuts pay for themselves?
+Does the Laffer curve hold in practice?
+Should the top rate of income tax be higher?
+Does corporation tax reduce investment?
+Should the UK cut VAT to fight inflation?
+Is fiscal drag a stealth tax?
+Should child benefit be universal?
+Is the two-child benefit limit justified?
+Does welfare create dependency?
+Should benefits rise with inflation or wages?
+Is Universal Credit working?
+Should work be the best route out of poverty?
+How should poverty be measured?
+Is relative poverty a meaningful idea?
+Why does child poverty persist in rich countries?
+Do food banks show a failure of the welfare state?
+Is in-work poverty the new normal?
+Should the national living wage be linked to median earnings?
+Does the minimum wage help the poorest households?
+Why has wage growth been so weak since 2008?
+Do trade unions raise wages for everyone?
+Should public sector workers be paid more?
+Should nurses' pay be set by a pay review body?
+Do strikes work?
+Should essential workers be allowed to strike?
+Is the gig economy here to stay?
+Should zero-hours contracts be banned?
+Is self-employment a sign of a healthy economy?
+Does working from home raise or lower productivity?
+Will remote work change where people live?
+Has the pandemic permanently changed the labour market?
+Why are so many people in the UK economically inactive?
+Is long-term sickness a growing economic problem?
+Should the state invest more in mental health for economic reasons?
+Is health spending an investment or a cost?
+Should the NHS be funded by social insurance?
+Why does the US spend so much on healthcare for worse outcomes?
+Should prescription charges be abolished?
+Should obesity be treated as an economic problem?
+Should there be a tax on ultra-processed food?
+What is the economic cost of loneliness?
+What is the economic case for early-years education?
+Do grammar schools improve social mobility?
+Should university places be capped?
+Is the graduate premium falling?
+Should student loans be repaid like a graduate tax?
+Do league tables improve schools?
+Should teachers be paid by results?
+Are apprenticeships undervalued in the UK?
+What is human capital, and how do we grow it?
+Why do some cities attract talent and others lose it?
+Does immigration boost innovation?
+What would happen to the UK economy without migrant workers?
+Should the UK have a points-based immigration system?
+Do refugees cost or contribute to the economy?
+Should international students count in migration figures?
+What is the economic impact of brain drain on poorer countries?
+Do remittances help developing countries more than aid?
+Should rich countries open their markets to poor ones?
+Is fair trade good for farmers?
+Should aid come with conditions?
+Is China's Belt and Road a debt trap?
+Why does Africa trade so little with itself?
+Can the African Continental Free Trade Area transform Africa?
+Why are some countries locked out of global finance?
+Should the IMF be reformed?
+Is the World Bank still useful?
+Is the WTO still relevant?
+Are trade blocs good for the world?
+Should the UK join the CPTPP trade deal?
+What did NAFTA do to American manufacturing?
+Did China's entry into the WTO cost Western jobs?
+Is the China shock over?
+Should the West decouple from China?
+Do economic sanctions work?
+Have sanctions on Russia worked?
+Should central bank reserves be seized from aggressor states?
+What did the war in Ukraine do to global food prices?
+How does war affect an economy?
+Is defence spending good for growth?
+Should NATO members spend more on defence?
+Is energy security worth paying for?
+Should the UK frack for gas?
+Should the North Sea keep producing oil?
+Can renewable energy be cheap and reliable?
+Who should pay for the energy transition?
+Should the UK copy Norway's electric car incentives?
+Will the transition to net zero cost jobs?
+Is a green industrial revolution realistic?
+Should green investment be excluded from debt rules?
+Do carbon offsets work?
+Is nuclear fusion worth public investment?
+What is the economic cost of climate change?
+How should we value future generations in climate policy?
+Is geoengineering an economic solution to climate change?
+Should the UK pay farmers to produce less food?
+Is food self-sufficiency a sensible goal?
+Should meat be taxed?
+Why is water scarcity an economic problem?
+Should water be priced to reflect its scarcity?
+Who owns the ocean's resources?
+What is the economic value of biodiversity?
+Are nature-based solutions underfunded?
+Should pollution be priced rather than banned?
+Is the circular economy realistic?
+Should we pay for clean air?
+Is economic growth possible without using more resources?
+Is green growth a myth?
+What is the economic value of time?
+Should economists care about leisure?
+Is happiness economics a real science?
+Does inequality make people unhappy?
+Is relative income more important than absolute income?
+Why do people care about status?
+Is consumerism making us poorer?
+Is advertising wasteful competition?
+Does social media create real economic value?
+How should we measure the value of free digital services?
+Is GDP missing the digital economy?
+Is the UK economy really as weak as the data suggests?
+Can we trust official statistics?
+Should the Office for Budget Responsibility have more power?
+Should fiscal rules be scrapped?
+Is the UK's national debt too high?
+What would happen if the UK defaulted on its debt?
+Who owns the UK's government debt, and does it matter?
+Should the Bank of England pay interest on bank reserves?
+Should quantitative tightening be slowed down?
+Is 2% the right inflation target?
+Should central banks target nominal GDP?
+Do interest rates still work as a policy tool?
+Why did inflation return after decades of stability?
+Was the Bank of England too slow to raise rates in 2021?
+Is the cost of living crisis over?
+Does inflation hurt the poor more than the rich?
+Should wages rise with inflation?
+Are profits to blame for inflation?
+What are the risks of deflation?
+Why has the yen been so weak?
+What would a weaker dollar mean for the world?
+Should countries peg their currency?
+Is a currency union possible without political union?
+Should emerging markets fear rising US interest rates?
+Why do financial crises keep happening?
+Can financial crises be predicted?
+Is the financial system safer than in 2008?
+What is shadow banking and is it dangerous?
+Is private credit the next financial risk?
+Are cryptocurrencies a threat to financial stability?
+Should central banks hold Bitcoin?
+Is tokenisation the future of finance?
+Should the UK build a digital pound?
+Does high-frequency trading make markets fairer?
+Should there be a tax on financial transactions?
+Do credit rating agencies deserve their power?
+Should bank executives face personal liability for failures?
+What did the Post Office Horizon scandal reveal about corporate accountability?
+What did the Grenfell inquiry reveal about regulation?
+What does Thames Water's crisis say about privatised utilities?
+Should regulators be able to cap company profits?
+Is the UK's competition regulator too cautious or too aggressive?
+Should the UK have blocked Microsoft's Activision takeover?
+Is shareholder primacy over?
+Should companies have a legal duty to society?
+Is short-termism damaging British business?
+Should executive pay be linked to long-term performance?
+Should CEO pay be capped at public companies?
+Do diverse boards perform better?
+Are family firms more productive than public companies?
+Why are UK start-ups bought by American firms?
+Why do UK scale-ups struggle to find funding?
+Should the British Business Bank invest more in start-ups?
+Does venture capital fund the right ideas?
+Is the unicorn obsession bad for the economy?
+Do start-ups create more jobs than big firms?
+Why are entrepreneurship rates falling in rich countries?
+Does bankruptcy law encourage entrepreneurship?
+Do patents encourage or block innovation?
+Should drug patents be shorter?
+Who should own the rights to publicly funded research?
+Should universities profit from their research?
+Why does the UK invent but not commercialise?
+What made ARM a success, and why was it sold?
+Should the government own a stake in key technology firms?
+Is public R&D spending a good investment?
+Does AI explain the productivity puzzle or deepen it?
+Will AI raise wages or lower them?
+Will AI boost GDP as much as its supporters claim?
+Should AI companies pay for the data they train on?
+Is AI a general purpose technology like electricity?
+Will AI make some countries richer and others poorer?
+Can AI replace human judgement in finance?
+Should AI be used in central banking?
+Should algorithms be allowed to set wages?
+Will AI end the advantage of cheap labour countries?
+Is compute the new oil?
+Should governments build their own AI models?
+Should AI safety be regulated internationally?
+Could AI companies become too big to fail?
+How should the gains from automation be shared?
+Is a robot tax a good idea?
+Will AI create a jobless future or a leisure society?
+What did economists get wrong about the internet?
+Has the internet made markets more competitive?
+Are app stores monopolies?
+Should Apple and Google be forced to open their app stores?
+Should social media companies be regulated like publishers?
+Is advertising-funded internet a market failure?
+Should personal data be taxed?
+Is surveillance capitalism a real threat?
+Is the creator economy sustainable?
+What is the economic future of journalism?
+Should streaming services pay artists more?
+Is the music industry fair to musicians?
+Why are sports broadcasting rights so valuable?
+Should the Premier League face an independent regulator?
+Is the economics of the Olympics broken?
+What is the economics of the luxury goods industry?
+Why do brands matter in economics?
+Is fast fashion an economic success at an environmental cost?
+Does tourism help or harm local economies?
+Should tourist taxes be introduced in UK cities?
+What explains the decline of the British pub?
+What is the future of the high street after Amazon?
+Has online shopping made consumers better off?
+Why did supermarket prices rise so fast in 2022?
+Do supermarkets have too much power over farmers?
+Is Britain's food system resilient?
+Should the government guarantee basic food prices?
+What does the price of a cup of coffee tell you about global trade?
+What can the life of a T-shirt tell us about globalisation?
+What does the price of a pint tell you about the UK economy?
+What can a smartphone teach us about supply chains?
+Is the economics of football transfers rational?
+Why do concert tickets sell out in seconds, and should anything change?
+Should ticket resale be capped?
+What is the economics of queues?
+What is the economics of dating apps?
+Is marriage an economic contract?
+What is the economic cost of crime?
+Does prison reduce crime cost-effectively?
+Should the police use economic incentives?
+Is the war on drugs economically rational?
+What is the economics of the illegal wildlife trade?
+What is the economics of piracy, at sea and online?
+Can economics explain corruption?
+Why do some countries have more trust than others, and does it matter for growth?
+Does culture explain economic success?
+Does religion affect economic growth?
+Is democracy good for economic growth?
+Does China prove that authoritarian states can grow fast?
+Are institutions the main cause of prosperity?
+Is geography destiny for economic development?
+Why do some booming cities stop growing?
+Will megacities keep growing?
+What makes a city economically successful?
 `);

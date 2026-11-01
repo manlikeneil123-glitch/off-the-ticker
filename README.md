@@ -1,6 +1,6 @@
 # Off The Ticker
 
-Spin-a-question speaking practice for economics, stocks, finance, AI and entrepreneurship: 1,239 questions in the style of Oxbridge interviews and essay competitions, with no repeats until a deck runs out.
+Spin-a-question speaking practice for economics, stocks, finance, AI and entrepreneurship: 1,554 questions in the style of Oxbridge interviews and essay competitions, with no repeats until a deck runs out.
 
 Live: https://offtheticker.netlify.app/
 
