@@ -156,3 +156,23 @@ body { background: var(--bg); }
 .about { width: min(640px, 100%); margin-top: clamp(4rem, 12vh, 7rem); text-align: center; color: var(--muted); }
 .about h2 { margin: 0 0 .6rem; font-family: var(--font-display); font-weight: 500; font-size: 1.1rem; color: var(--ink); }
 .about p { margin: 0; font-size: .85rem; line-height: 1.6; }
+
+.mark { width: min(640px, 100%); display: flex; flex-direction: column; gap: .75rem; text-align: left; margin-top: .5rem; }
+.mark-title { margin: 0; font-family: var(--font-display); font-weight: 500; font-size: 1.25rem; text-align: center; }
+.mark textarea {
+  width: 100%; resize: vertical; padding: .9rem 1rem; border: 0; border-radius: 1rem;
+  font: 400 1rem/1.55 var(--font-body); color: var(--ink); background: #f2ead80d; box-shadow: inset 0 0 0 1px var(--line);
+}
+.mark textarea::placeholder { color: var(--muted); }
+#prompt-fallback { font-size: .8rem; }
+.mark-row { display: flex; justify-content: space-between; align-items: center; gap: .75rem; flex-wrap: wrap; }
+.word-count { font-size: .85rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mark-row select {
+  appearance: none; cursor: pointer; padding: .55rem 2.2rem .55rem 1rem; border: 0; border-radius: 999px;
+  font: 600 .88rem var(--font-body); color: var(--ink);
+  background: #f2ead80d url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M0 0h10L5 6z' fill='%23f2ead8a8'/%3E%3C/svg%3E") no-repeat right .9rem center / .55rem;
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.mark-row option { background: #1a2420; color: var(--ink); }
+.mark-actions { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }
+.mark-note { margin: 0; font-size: .82rem; line-height: 1.5; color: var(--muted); text-align: center; }

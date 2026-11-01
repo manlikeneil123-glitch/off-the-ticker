@@ -62,11 +62,32 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z" /></svg>
           </button>
         </div>
+
+        <section class="mark" id="mark" aria-labelledby="mark-title" hidden>
+          <h2 class="mark-title" id="mark-title">Write your answer, then get it marked</h2>
+          <label for="answer" class="sr-only">Your answer</label>
+          <textarea id="answer" rows="8" placeholder="Write your answer to the question above…"></textarea>
+          <div class="mark-row">
+            <span class="word-count" id="word-count">0 words</span>
+            <label class="sr-only" for="mark-style">Marking style</label>
+            <select id="mark-style">
+              <option value="full">Full mark (out of 60)</option>
+              <option value="coverage">Coverage check</option>
+            </select>
+          </div>
+          <div class="mark-actions">
+            <button type="button" class="btn primary" id="mark-claude" data-ai="claude">Mark with Claude</button>
+            <button type="button" class="btn secondary" id="mark-chatgpt" data-ai="chatgpt">Mark with ChatGPT</button>
+          </div>
+          <p class="mark-note" id="mark-note" aria-live="polite">Copies the question, a strict marking scheme and your answer, then opens a free AI chat. Your answer is only saved in this browser.</p>
+          <label class="sr-only" for="prompt-fallback">Marking prompt to copy</label>
+          <textarea id="prompt-fallback" rows="6" readonly hidden></textarea>
+        </section>
       </main>
 
       <footer class="about">
         <h2>Practice questions for economics interviews and essay competitions</h2>
-        <p>Off The Ticker is a free practice tool for Oxford and Cambridge interviews (PPE, Economics &amp; Management, Economics, Land Economy) and for economics essay competitions. Spin one of 1,554 questions on economics, stocks, finance, AI and entrepreneurship, then answer out loud against a timer. Each question starts from something everyday, such as why water costs more at the airport or whether students should use AI for homework, and you won't see a repeat until you've worked through the whole deck.</p>
+        <p>Off The Ticker is a free practice tool for Oxford and Cambridge interviews (PPE, Economics &amp; Management, Economics, Land Economy) and for economics essay competitions. Spin one of 1,554 questions on economics, stocks, finance, AI and entrepreneurship, then answer out loud against a timer, or write your answer and get it marked against interview and essay-competition criteria. Each question starts from something everyday, such as why water costs more at the airport or whether students should use AI for homework, and you won't see a repeat until you've worked through the whole deck.</p>
       </footer>
     </div>
 

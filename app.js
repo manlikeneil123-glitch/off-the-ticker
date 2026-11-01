@@ -12,8 +12,45 @@ function drawTopic(pool, seen, rand = Math.random) {
   return { topic, reshuffled };
 }
 
+// Marking prompt for pasting into a free AI chat. style: 'full' | 'coverage'; mode: 'cuff' | 'deep'.
+function buildMarkingPrompt(question, answer, style, mode) {
+  const kind = mode === 'deep'
+    ? 'a researched essay answer'
+    : 'a short answer of the kind a student would give out loud in an interview (1–2 minutes)';
+  const task = style === 'coverage'
+    ? `Check how well the answer covers the topic.
+1. List the key points, arguments, economic concepts and evidence a strong answer to this question should cover (aim for 8–12).
+2. For each one, mark it Covered, Partly covered or Missing, quoting the line from the answer where it is covered.
+3. Give a coverage score as a percentage.
+4. Name the 3 most important missing points and one sentence on how each would strengthen the answer.`
+    : `Mark the answer like a strict examiner for Oxford and Cambridge economics interviews (PPE, Economics & Management) and for economics essay competitions such as the RES Young Economist of the Year or the John Locke Institute.
+Score each criterion out of 10, with one line explaining the score:
+1. Answers the actual question asked
+2. Economic reasoning: correct concepts, clear cause and effect
+3. Evidence and real-world examples
+4. Counter-arguments and evaluation
+5. A clear, justified conclusion
+6. Structure and clarity
+Then give:
+- A total out of 60, and an honest sentence on how it would fare in a competition or interview.
+- The 3 changes that would raise the mark most, in order of impact.
+- What a top-scoring answer would have included that this one did not.`;
+  return `Question: ${question}
+
+This is ${kind}.
+
+${task}
+
+Be honest and specific. Do not inflate marks, and do not rewrite the answer for me.
+
+My answer:
+"""
+${answer.trim()}
+"""`;
+}
+
 if (typeof document === 'undefined') {
-  module.exports = { drawTopic };
+  module.exports = { drawTopic, buildMarkingPrompt };
 } else {
   main();
 }
@@ -66,6 +103,8 @@ function main() {
     muted: $('muted'), seenCount: $('seen-count'), resetSeen: $('reset-seen'),
     timer: $('timer'), timerTopic: $('timer-topic'), timerPhase: $('timer-phase'), stages: $('stages'),
     ring: $('ring'), digits: $('digits'), timerStatus: $('timer-status'), timerNext: $('timer-next'), timerClose: $('timer-close'),
+    mark: $('mark'), answer: $('answer'), wordCount: $('word-count'), markStyle: $('mark-style'),
+    markNote: $('mark-note'), promptFallback: $('prompt-fallback'), markButtons: document.querySelectorAll('[data-ai]'),
   };
 
   // --- Sound: tiny WebAudio blips, no files.
@@ -108,6 +147,7 @@ function main() {
     el.category.disabled = el.spin.disabled = el.openSettings.disabled = busy();
     el.spin.textContent = state.spinning ? 'Spinning…' : state.topic ? 'Spin again' : 'Spin';
     el.start.disabled = !state.topic || busy();
+    el.mark.hidden = !state.topic;
     el.start.textContent = state.mode === 'deep' ? `Start ${state.researchMin} min research` : `Start ${state.speechMin} min timer`;
     const p = pool(), left = p.filter((t) => !state.seen.has(t)).length;
     el.deckNote.textContent = `${left.toLocaleString()} of ${p.length.toLocaleString()} topics left in this deck`;
@@ -265,6 +305,42 @@ function main() {
     store.set('seen', []);
     renderSeen();
   });
+
+  // --- Marking: copy a prompt and open a free AI chat
+  const AI_URL = { claude: 'https://claude.ai/new', chatgpt: 'https://chatgpt.com/' };
+  const MARK_NOTE = el.markNote.textContent;
+  const countWords = () => {
+    const n = (el.answer.value.match(/\S+/g) || []).length;
+    el.wordCount.textContent = `${n.toLocaleString()} word${n === 1 ? '' : 's'}`;
+  };
+  el.answer.value = store.get('draft', '');
+  el.markStyle.value = store.get('markStyle', 'full') === 'coverage' ? 'coverage' : 'full';
+  countWords();
+  el.answer.addEventListener('input', () => { countWords(); store.set('draft', el.answer.value); });
+  el.markStyle.addEventListener('change', () => store.set('markStyle', el.markStyle.value));
+  el.markButtons.forEach((b) => b.addEventListener('click', () => {
+    if (!el.answer.value.trim()) {
+      el.answer.focus();
+      el.markNote.textContent = 'Write your answer in the box first.';
+      return;
+    }
+    const prompt = buildMarkingPrompt(state.topic, el.answer.value, el.markStyle.value, state.mode);
+    const showFallback = () => {
+      el.promptFallback.value = prompt;
+      el.promptFallback.hidden = false;
+      el.promptFallback.select();
+      el.markNote.textContent = "Couldn't copy automatically. Copy the text below, then paste it into the chat.";
+    };
+    // Copy before opening the tab: the clipboard refuses once this page loses focus.
+    try { navigator.clipboard.writeText(prompt).catch(showFallback); } catch { showFallback(); }
+    const q = encodeURIComponent(prompt);
+    // shortcut: long answers skip the ?q= prefill (sites cap URL length); the user pastes from the clipboard instead.
+    window.open(q.length < 6000 ? `${AI_URL[b.dataset.ai]}?q=${q}` : AI_URL[b.dataset.ai], '_blank', 'noopener');
+    el.markNote.textContent = q.length < 6000
+      ? 'Opened with your answer filled in. It is also copied, in case you need to paste it.'
+      : 'Copied. Paste it into the chat that just opened (long answers are too big to fill in automatically).';
+  }));
+  el.answer.addEventListener('focus', () => { el.markNote.textContent = MARK_NOTE; });
 
   showIdleTopic();
 }
