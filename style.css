@@ -152,3 +152,7 @@ body { background: var(--bg); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+.about { width: min(640px, 100%); margin-top: clamp(4rem, 12vh, 7rem); text-align: center; color: var(--muted); }
+.about h2 { margin: 0 0 .6rem; font-family: var(--font-display); font-weight: 500; font-size: 1.1rem; color: var(--ink); }
+.about p { margin: 0; font-size: .85rem; line-height: 1.6; }
