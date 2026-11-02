@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://offtheticker.netlify.app/sitemap.xml
+Sitemap: https://thinkonomy.netlify.app/sitemap.xml
